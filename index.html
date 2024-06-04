@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrousel</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+</head>
+<body>
+
+    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+                <div data-bs-interval="1000" class="carousel-item active">
+                    <img class="d-block w-100 vh-100" src="images/imagem skate 1.webp">
+                    <div class="carousel-caption">
+                        <h2> Foto Esporte Skate</h2>
+                    </div>
+                </div>   
+                <div data-bs-interval="1000" class="carousel-item">
+                    <img class="d-block w-100 vh-100" src="images/imagem skate 2.webp" >
+                    <div class="carousel-caption">
+                        <h2>Foto Skate</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="1000" class="carousel-item">
+                    <img class="d-block w-100 vh-100" src="images/imagem skate 3.webp">
+                    <div class="carousel-caption">
+                        <h2> Foto Manobra Skate </h2>
+                    </div>
+                </div>
+        </div>
+        <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+
+
+    <div class="card"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <div class="card-header"> Marca de Skate</div>
+                        <img src="./images/Vans.webp">
+                        <div class="card-body">
+                            <h4 class="card-title">Vans</h4>
+                            <h5 class="card-subtitle">Top 1 marca de skate</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illo vitae excepturi perspiciatis </p>
+                            <a class="btn btn-primary" href="https://www.vans.com">Ir para o Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <div class="card-header"> Marca de Skate</div>
+                        <img src="./images/Nike-Sb.webp">
+                        <div class="card-body">
+                            <h4 class="card-title">Nike</h4>
+                            <h5 class="card-subtitle">Top 2 Marca de Skate</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illo vitae excepturi perspiciatis </p>
+                            <a class="btn btn-primary" href="https://www.nike.com">Ir para o Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-bg-dark">
+                        <div class="card-header"> Marca de Skate</div>
+                        <img src="./images/DC-Shoes-1.webp">
+                        <div class="card-body">
+                            <h4 class="card-title">DC Shoes</h4>
+                            <h5 class="card-subtitle">Top 2 Marca de Skate</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam illo vitae excepturi perspiciatis </p>
+                            <a class="btn btn-primary" href="https://www.dcshoes.com">Ir para o Site</a>
+                        </div>
+                    </div>
+                </div>
+           
+           
+        </div>
+    </div>
+</div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
